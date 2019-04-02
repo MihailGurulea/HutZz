@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_87BE9A"
+    tools:context=".activities.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:contentDescription="@string/application_logo"
+        android:src="@drawable/logo_01"/>
+
+    <TextView
+        android:id="@+id/find_roommate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="@string/find_a_roommate"
+        android:textColor="@color/black_252529"/>
+
+</RelativeLayout>

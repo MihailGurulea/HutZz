@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_87BE9A">
+
+    <ImageView
+        android:id="@+id/iv_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:contentDescription="@string/white_left_arrow"
+        android:src="@drawable/ic_keyboard_arrow_left_white_35dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_sign_up"
+        android:layout_alignStart="@id/btn_sign_up"
+        android:layout_alignEnd="@id/btn_sign_up"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="@string/sign_up_first_capital"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="83dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/username"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bottom_line_selector"
+            android:fontFamily="@font/sf_pro_display_semi_bold"
+            android:inputType="textCapSentences"
+            android:paddingBottom="12.5dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="37.5dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/email"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bottom_line_selector"
+            android:fontFamily="@font/sf_pro_display_semi_bold"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="12.5dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="37.5dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/password"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bottom_line_selector"
+            android:fontFamily="@font/sf_pro_display_semi_bold"
+            android:inputType="textPassword"
+            android:paddingBottom="12.5dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="37.5dp"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:text="@string/confirm_password"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/et_bottom_line_selector"
+            android:fontFamily="@font/sf_pro_display_semi_bold"
+            android:inputType="textPassword"
+            android:paddingBottom="12.5dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:layout_above="@id/ll_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:background="@color/green_6BA27E"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="@string/have_an_account"
+            android:textColor="@color/black_252529"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:text="@string/sign_in"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

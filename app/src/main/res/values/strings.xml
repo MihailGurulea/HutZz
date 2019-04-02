@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">HutZz</string>
+    <string name="application_logo">Application logo</string>
+    <string name="find_a_roommate">Find a Roommate</string>
+    <string name="have_an_account">HAVE AN ACCOUNT?</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="connect_with_facebook">CONNECT WITH FACEBOOK</string>
+    <string name="register_with_email">REGISTER WITH EMAIL</string>
+    <string name="white_left_arrow">white left arrow</string>
+    <string name="don_t_have_an_account">DON\'T HAVE AN ACCOUNT?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="welcome_to_hutzz">Welcome to HutZz!</string>
+    <string name="email">Email</string>
+    <string name="email_example">jonathan.smith@example.com</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up_first_capital">Sign Up</string>
+    <string name="submit">SUBMIT</string>
+    <string name="recover_your_password">Recover your\n password</string>
+    <string name="email_field_is_empty">Email field is empty</string>
+    <string name="provide_valid_email">You need to provide a valid E-mail</string>
+    <string name="we_sent_a_new_password">We\'ve sent a new password on your E-mail</string>
+    <string name="pass_is_empty">Password field is empty</string>
+    <string name="password_requirements">Password should be at least 6 characters and contain a capital letter, a lowercase letter and a digit</string>
+    <string name="something_went_wrong">Oops, something went wrong…</string>
+    <string name="check_internet_connection">Check your internet connection</string>
+    <string name="canceled">Canceled</string>
+    <string name="username">Username</string>
+    <string name="username_empty">Username field is empty</string>
+    <string name="username_requirements">Username should be at least 3 characters</string>
+    <string name="confirm_pass_empty">Confirm password field is empty</string>
+    <string name="pass_should_match">Passwords should match</string>
+    <string name="email_already_taken">This Email is already taken</string>
+    <string name="search">Search</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="requests">Requests</string>
+    <string name="profile">Profile</string>
+    <string name="rationale_location">This application require your location for further usage</string>
+    <string name="current_location">Current location</string>
+    <string name="list">LIST</string>
+    <string name="filter">FILTER</string>
+
+    <!--FACEBOOK AUTH-->
+    <string name="facebook_app_id">382249375888135</string>
+    <string name="fb_login_protocol_scheme">fb382249375888135</string>
+
+    <!--Google Maps-->
+    <string name="google_api_key">AIzaSyD-bQhV4HXj_V_3jzpTzYfB8YqgbK0C4Gg</string>
+    <string name="photo_of_the_place">Photo of the place</string>
+
+    <!--Spinner array-->
+    <string-array name="spinner_array">
+        <item></item>
+        <item>Moldova</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Moldova</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Moldova</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Moldova</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Moldova</item>
+        <item>Romania</item>
+        <item>Russia</item>
+    </string-array>
+
+    <!--Spinner array-->
+    <string-array name="state_spinner_array">
+        <item></item>
+        <item>California</item>
+        <item>Ohio</item>
+        <item>Washington</item>
+        <item>Nevada</item>
+        <item>Wisconsin</item>
+        <item>Pennsylvania</item>
+        <item>California</item>
+        <item>Ohio</item>
+        <item>Washington</item>
+        <item>Nevada</item>
+        <item>Wisconsin</item>
+        <item>Pennsylvania</item>
+    </string-array>
+
+    <!--Spinner array-->
+    <string-array name="city_spinner_array">
+        <item></item>
+        <item>Chisinau</item>
+        <item>Bucharest</item>
+        <item>Moscow</item>
+        <item>Kiev</item>
+        <item>Sandusky</item>
+        <item>New York</item>
+        <item>Balti</item>
+        <item>Soroca</item>
+        <item>Donduseni</item>
+        <item>Riscani</item>
+        <item>Ialoveni</item>
+    </string-array>
+
+    <string name="applied">APPLIED</string>
+    <string name="my_listing">MY LISTING</string>
+    <string name="keep_track_of_your_requests">Keep track of your\n requests!</string>
+    <string name="once_you_start_creating">Once you start creating requests you can view them\n here and handle your entire renting process through\n this tab.</string>
+    <string name="create">CREATE</string>
+    <string name="done">DONE</string>
+    <string name="first_name">First Name</string>
+    <string name="your_first_name">Your first name</string>
+    <string name="last_name">Last Name</string>
+    <string name="your_last_name">Your last name</string>
+    <string name="location">Location</string>
+    <string name="your_location">Your location</string>
+    <string name="your_phone_number">Your phone number</string>
+    <string name="your_e_mail_address">Your E-mail address</string>
+    <string name="phone">Phone</string>
+    <string name="ratiolate_gallery">We need this permission in order to open the Photo Gallery</string>
+    <string name="google_map_isn_t_initialized">Google map isn\'t initialized</string>
+    <string name="edit">EDIT</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_property">Add Property</string>
+    <string name="add_property_name">Add Property Name</string>
+    <string name="add_photos">Add photos</string>
+    <string name="add_address">Add address</string>
+    <string name="country">Country</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="street">Street</string>
+    <string name="number">Number</string>
+    <string name="zip">ZIP</string>
+    <string name="add_price">Add price</string>
+    <string name="dollar_0">$0</string>
+    <string name="per_month">/month</string>
+    <string name="type_of_property">Type of Property</string>
+    <string name="apartment">Apartment</string>
+    <string name="condo">Condo</string>
+    <string name="house">House</string>
+    <string name="penthouse">Penthouse</string>
+
+</resources>

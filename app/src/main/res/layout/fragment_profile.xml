@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_87BE9A">
+
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="@string/profile"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="31dp"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:padding="10dp"
+        android:text="@string/edit"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        tools:ignore="RelativeOverlap" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tv_profile"
+        android:layout_marginTop="25dp"
+        android:background="@color/white_opacity_30" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/divider"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rr_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_profile_pic"
+
+        android:layout_marginTop="55dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:src="@color/white_opacity_70" />
+
+    <TextView
+        android:id="@+id/tv_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/civ_profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sf_ui_text_bold"
+        android:textColor="@color/green_87BE9A"
+        android:textSize="70sp"
+        tools:text="M" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/civ_profile_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/sf_ui_text_bold"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        tools:text="Mathew Cooper" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/sf_ui_text_regular"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="Los Angeles, California" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/sf_ui_text_regular"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="+1 424 765 3455" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/sf_ui_text_regular"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="mathew.cooper@gmail.com" />
+
+    <TextView
+        android:id="@+id/tv_listing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_email"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/sf_ui_text_regular"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        tools:text="3 Listings" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_listings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_listing"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/tv_log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_listings"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:drawableStart="@drawable/ic_logout"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/sf_ui_text_medium"
+        android:padding="10dp"
+        android:text="@string/log_out"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
